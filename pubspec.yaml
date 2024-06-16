@@ -1,0 +1,25 @@
+name: payment_gateway_with_paymob_getx
+description: "Payment gateway with PayMob and GetX by Amgad"
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Backend && APIs
+  
+  # State Management
+  get: ^4.6.6
+  webview_flutter: ^4.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  
+flutter:
+  uses-material-design: true
